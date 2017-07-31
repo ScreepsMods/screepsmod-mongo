@@ -1,0 +1,17 @@
+version: 2
+services:
+  server:
+    image: 'sm-mongo'
+    build: '.'
+    volumes:
+      - './data/server:/app'
+      - '.:/mod'
+    ports: 
+      - 21025:21025
+  mongo:
+    image: mongo
+    volumes:
+      - './data/mongo/db:/data/db'
+      - './data/mongo/configdb:/data/configdb'
+  redis:
+    image: redis
