@@ -16,7 +16,7 @@
 ## Installation
 
 1. Ensure both mongodb and redis are already installed and running
-2. `npm install screepsmods/screepsmod-mongo` inside your server's mods folder
+2. `npm install screepsmod-mongo` inside your server's mods folder
 3. Start server!
 4. On first start it will import your existing db.json
 5. Once done (Check the logs) restart the server
