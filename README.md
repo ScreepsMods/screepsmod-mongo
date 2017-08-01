@@ -22,3 +22,35 @@
 5. Once done (Check the logs) restart the server
 6. Done! 
 
+## Configuration
+
+All options and defaults are listed below
+
+### Mongo
+
+* host: localhost
+* port: 28017
+* database: screeps
+
+### Redis
+
+* host: localhost
+* port: 6379
+
+
+## Examples
+
+Config can be applied in two ways:
+
+### Mod method 
+```
+module.exports = function (config) {
+	config.mongo.host = '192.168.0.222'
+	config.redis.host = '192.168.0.222'
+}
+```
+
+### ENV Method
+```
+MONGO_HOST='192.168.0.222'
+```
