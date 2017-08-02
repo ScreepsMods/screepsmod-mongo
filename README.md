@@ -57,3 +57,7 @@ Please note that this method only works when launching modules directly, when la
 ```
 MONGO_HOST='192.168.0.222'
 ```
+
+
+### TODO
+ * Add notes about redis persistence and/or persist to DB
