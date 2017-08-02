@@ -43,6 +43,8 @@ All options and defaults are listed below
 Config can be applied in two ways:
 
 ### Mod method 
+
+Load AFTER screepsmod-mongo
 ```
 module.exports = function (config) {
 	config.mongo.host = '192.168.0.222'
