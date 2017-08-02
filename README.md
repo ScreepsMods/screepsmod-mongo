@@ -51,6 +51,9 @@ module.exports = function (config) {
 ```
 
 ### ENV Method
+
+Please note that this method only works when launching modules directly, when launched via the defaul launcher they will be ignored.
+
 ```
 MONGO_HOST='192.168.0.222'
 ```
