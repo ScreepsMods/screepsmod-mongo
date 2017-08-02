@@ -29,7 +29,7 @@ All options and defaults are listed below
 ### Mongo
 
 * host: localhost
-* port: 28017
+* port: 27017
 * database: screeps
 
 ### Redis
