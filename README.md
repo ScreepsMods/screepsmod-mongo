@@ -40,7 +40,18 @@ All options and defaults are listed below
 
 ## Examples
 
-Config can be applied in two ways:
+Config can be applied in several ways:
+
+### .screepsrc
+
+Add to the bottom of your .screepsrc file
+```
+[mongo]
+host = 192.168.0.222
+
+[redis]
+host = 192.168.0.222
+```
 
 ### Mod method 
 
