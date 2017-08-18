@@ -18,8 +18,8 @@
 1. Ensure both mongodb and redis are already installed and running
 2. `npm install screepsmod-mongo` inside your server's mods folder
 3. Start server!
-4. On first start it will import your existing db.json
-5. Once done (Check the logs) restart the server
+4. To import your existing DB, open the screeps cli and run `mongo.importDB()`
+5. Once done restart the server
 6. Done! 
 
 ## Configuration
@@ -42,7 +42,7 @@ All options and defaults are listed below
 
 Config can be applied in several ways:
 
-### .screepsrc
+### .screepsrc (Recommended)
 
 Add to the bottom of your .screepsrc file
 ```
@@ -65,7 +65,7 @@ module.exports = function (config) {
 
 ### ENV Method
 
-Please note that this method only works when launching modules directly, when launched via the defaul launcher they will be ignored.
+Please note that this method only works when launching modules directly, when launched via the default launcher they will be ignored.
 
 ```
 MONGO_HOST='192.168.0.222'
