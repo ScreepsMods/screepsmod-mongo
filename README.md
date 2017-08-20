@@ -18,7 +18,7 @@
 1. Ensure both mongodb and redis are already installed and running
 2. `npm install screepsmod-mongo` inside your server's mods folder
 3. Start server!
-4. To import your existing DB, open the screeps cli and run `mongo.importDB()`
+4. `mongo.importDB()` in the screeps cli imports your existing DB
 5. Once done restart the server
 6. Done! 
 
