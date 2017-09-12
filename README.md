@@ -34,6 +34,9 @@ uses 50% - 1G of your system RAM. Redis on the other hand, uses very little.
 Mongo and Redis CLIs can be used to see and modify the data as usual,
 backups and restores should be done via normal mongo and redis tools.
 
+https://docs.mongodb.com/manual/tutorial/backup-and-restore-tools/
+https://redis.io/topics/persistence
+
 ## Configuration
 
 All options and defaults are listed below
