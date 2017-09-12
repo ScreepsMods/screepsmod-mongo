@@ -22,6 +22,18 @@
 5. Once done restart the server
 6. Done! 
 
+## Usage
+
+With this mod installed you can continue to manage the server as usual,
+all CLI commands still function and bahave functionally identical.
+The original storage module will still run, but is completely ignored.
+
+Keep in mind that RAM requirements are slightly higher, by default mongo
+uses 50% - 1G of your system RAM. Redis on the other hand, uses very little.
+
+Mongo and Redis CLIs can be used to see and modify the data as usual,
+backups and restores should be done via normal mongo and redis tools.
+
 ## Configuration
 
 All options and defaults are listed below
