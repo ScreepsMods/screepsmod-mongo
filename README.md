@@ -8,7 +8,7 @@
 ## Requirements
 
 * nodejs 6+
-* screeps 3.0+
+* screeps 2.9+
 * mongodb
 * redis
 
