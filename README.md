@@ -19,7 +19,7 @@
 3. Start server!  
 4. DB Population
     1. `mongo.importDB()` in the screeps cli imports your existing DB
-    2. `mongo.resetAllData()` in the screeps cli for a completely fresh DB
+    2. `system.resetAllData()` in the screeps cli for a completely fresh DB
 5. Once done restart the server
 6. Done! 
 
