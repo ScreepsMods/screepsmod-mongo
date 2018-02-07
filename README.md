@@ -7,12 +7,14 @@
 
 ## Requirements
 
-* nodejs 6+
-* screeps 2.10+
+* nodejs 8+
+* screeps 2.12+
 * mongodb
 * redis
 
 ## Installation
+
+Installing on Ubuntu? Checkout the community guide in the official Docs [Private server on Ubuntu using MongoDB and Redis](http://docs.screeps.com/contributed/ps_ubuntu.html)
 
 1. Ensure both mongodb and redis are already installed and running
 2. `npm install screepsmod-mongo` inside your server's mods folder
