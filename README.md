@@ -49,12 +49,14 @@ All options and defaults are listed below
 * host: localhost
 * port: 27017
 * database: screeps
+* uri: mongodb://localhost:27017/screeps
+
+If the uri Parameter is supplied it will overwrite all other settings. Use it for Authentication, passing extra options, etc.
 
 ### Redis
 
 * host: localhost
 * port: 6379
-
 
 ## Examples
 
@@ -77,4 +79,5 @@ Please note that this method only works when launching modules directly, when la
 
 ```
 MONGO_HOST='192.168.0.222'
+MONGO_CONN='mongodb://username:password@hostname.com/database_name?ssl=true'
 ```
