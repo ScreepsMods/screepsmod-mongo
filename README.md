@@ -10,7 +10,7 @@
 * nodejs 8+
 * screeps 2.12+
 * mongodb
-* redis
+* redis.  For Windows installs, you can follow these steps: https://github.com/ServiceStack/redis-windows#option-3-running-microsofts-native-port-of-redis
 
 ## Installation
 
@@ -18,12 +18,20 @@ Installing on Ubuntu? Checkout the community guide in the official Docs [Private
 
 1. Ensure both mongodb and redis are already installed and running
 2. `npm install screepsmod-mongo` inside your server's mods folder
-3. Start server!  
-4. DB Population
+3. Edit mods.json to point to the index.js such as:
+
+```
+  "mods": [
+    "node_modules\\screepsmod-mongo\\index.js"
+  ],
+```
+
+4. Start server!  
+5. DB Population
     1. `mongo.importDB()` in the screeps cli imports your existing DB
     2. `system.resetAllData()` in the screeps cli for a completely fresh DB
-5. Once done restart the server
-6. Done! 
+6. Once done restart the server
+7. Done! 
 
 ## Usage
 
