@@ -7,10 +7,10 @@
 
 ## Requirements
 
-* nodejs 8+
-* screeps 2.12+
-* mongodb
-* redis.  For Windows installs, you can follow these steps: https://github.com/ServiceStack/redis-windows#option-3-running-microsofts-native-port-of-redis
+* nodejs 8+ (Current LTS heavily recommended)
+* screeps 3.0+
+* mongodb 2.6+
+* redis 3.0.6+  For Windows installs, you can follow these steps: https://github.com/ServiceStack/redis-windows#option-3-running-microsofts-native-port-of-redis
 
 ## Installation
 
