@@ -7,14 +7,14 @@
 
 ## Requirements
 
-* nodejs 8+ (Current LTS heavily recommended)
-* screeps 3.0+
+* nodejs 10 LTS
+* screeps 4.0+
 * mongodb 2.6+
 * redis 3.0.6+  For Windows installs, you can follow these steps: https://github.com/ServiceStack/redis-windows#option-3-running-microsofts-native-port-of-redis
 
 ## Installation
 
-Installing on Ubuntu? Checkout the community guide in the official Docs [Private server on Ubuntu using MongoDB and Redis](http://docs.screeps.com/contributed/ps_ubuntu.html)
+Installing on Ubuntu? Checkout the community guide in the official Docs [Private server on Ubuntu using MongoDB and Redis](http://docs.screeps.com/contributed/ps_ubuntu.html) or the newer screeps-launcher guide [Newbie-friendly (ish) private/dedicated server setup guide for Ubuntu 18.04, with automatic startup](https://www.reddit.com/r/screeps/comments/deyq66/newbiefriendly_ish_privatededicated_server_setup/)
 
 1. Ensure both mongodb and redis are already installed and running
 2. `npm install screepsmod-mongo` inside your server's mods folder
