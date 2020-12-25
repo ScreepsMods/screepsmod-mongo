@@ -1,0 +1,18 @@
+FROM arm32v7/node:8-slim
+
+RUN apt-get update
+RUN apt-get install -y \
+        python \
+        make \
+        g++
+
+USER root 
+RUN npm install --unsafe-perm -g screeps
+RUN adduser --system --home '/screeps' screeps-srv
+COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod 777 /usr/local/bin/docker-entrypoint.sh
+
+WORKDIR /screeps
+USER screeps-srv
+ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
+CMD ["screeps", "start", "--password", "changeme"]
