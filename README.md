@@ -7,19 +7,17 @@
 
 ## Requirements
 
-* nodejs 10 LTS
 * screeps 4.0+
 * mongodb 2.6+
 * redis 3.0.6+  For Windows installs, you can follow these steps: https://github.com/ServiceStack/redis-windows#option-3-running-microsofts-native-port-of-redis
 
 ## Installation
 
-Installing on Ubuntu? Checkout the community guide in the official Docs [Private server on Ubuntu using MongoDB and Redis](http://docs.screeps.com/contributed/ps_ubuntu.html) or the newer screeps-launcher guide [Newbie-friendly (ish) private/dedicated server setup guide for Ubuntu 18.04, with automatic startup](https://www.reddit.com/r/screeps/comments/deyq66/newbiefriendly_ish_privatededicated_server_setup/)
+Installing on Ubuntu? Check out the community guide in the official Docs [Private server on Ubuntu using MongoDB and Redis](http://docs.screeps.com/contributed/ps_ubuntu.html) or the newer screeps-launcher guide [Newbie-friendly (ish) private/dedicated server setup guide for Ubuntu 18.04, with automatic startup](https://www.reddit.com/r/screeps/comments/deyq66/newbiefriendly_ish_privatededicated_server_setup/)
 
 1. Ensure both mongodb and redis are already installed and running
 2. `npm install screepsmod-mongo` inside your server's mods folder
-3. Edit mods.json to point to the index.js such as:
-
+3. Ensure the mod has been added to mods.json. Eg:
 ```
   "mods": [
     "node_modules\\screepsmod-mongo\\index.js"
@@ -28,15 +26,18 @@ Installing on Ubuntu? Checkout the community guide in the official Docs [Private
 
 4. Start server!  
 5. DB Population
-    1. `mongo.importDB()` in the screeps cli imports your existing DB
-    2. `system.resetAllData()` in the screeps cli for a completely fresh DB
+    * `mongo.importDB()` in the screeps cli imports your existing DB
+
+        OR
+
+    * `system.resetAllData()` in the screeps cli for a completely fresh DB
 6. Once done restart the server
 7. Done! 
 
 ## Usage
 
 With this mod installed you can continue to manage the server as usual,
-all CLI commands still function and bahave functionally identical.
+all CLI commands behave identically.
 The original storage module will still run, but is completely ignored.
 
 Keep in mind that RAM requirements are slightly higher, by default mongo
