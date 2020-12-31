@@ -7,7 +7,6 @@
 
 ## Requirements
 
-* nodejs 10 or 12 LTS
 * screeps 4.0+
 * mongodb 2.6+
 * redis 3.0.6+  For Windows installs, you can follow these steps: https://github.com/ServiceStack/redis-windows#option-3-running-microsofts-native-port-of-redis
@@ -27,11 +26,11 @@ Installing on Ubuntu? Check out the community guide in the official Docs [Privat
 
 4. Start server!  
 5. DB Population
-    1. `mongo.importDB()` in the screeps cli imports your existing DB
+    * `mongo.importDB()` in the screeps cli imports your existing DB
 
         OR
 
-    2. `system.resetAllData()` in the screeps cli for a completely fresh DB
+    * `system.resetAllData()` in the screeps cli for a completely fresh DB
 6. Once done restart the server
 7. Done! 
 
