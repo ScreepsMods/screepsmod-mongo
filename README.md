@@ -3,9 +3,8 @@
 ## MongoDB And Redis for the Screeps Private Server
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-![Test](https://github.com/github/docs/actions/workflows/test.yml/badge.svg)
-![Publish](https://github.com/github/docs/actions/workflows/publish.yml/badge.svg)
-
+[![Test](https://github.com/ScreepsMods/screepsmod-mongo/actions/workflows/test.yml/badge.svg)](https://github.com/ScreepsMods/screepsmod-mongo/actions/workflows/test.yml)
+[![Publish](https://github.com/ScreepsMods/screepsmod-mongo/actions/workflows/publish.yml/badge.svg)](https://github.com/ScreepsMods/screepsmod-mongo/actions/workflows/publish.yml)
 
 ## Requirements
 
